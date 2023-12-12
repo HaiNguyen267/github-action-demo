@@ -26,4 +26,4 @@ jobs:
     - name: Hello world using echo
       run: echo "$(<wow.txt)"
     - name: Hello using cat
-      run: cat world wow.txt
+      run: cat world ./wow.txt
